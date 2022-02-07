@@ -6,7 +6,7 @@
     "dev": "ts-node-dev --no-notify --respawn --transpile-only src/server"
   },
   "dependencies": {
-    "@prisma/client": "3.8.1",
+    "@prisma/client": "3.10.0-dev.18",
     "fastify": "3.27.1",
     "graphql": "15.8.0",
     "graphql-scalars": "1.14.1",
@@ -15,10 +15,10 @@
   },
   "devDependencies": {
     "@types/node": "16.11.22",
-    "typescript": "4.5.5",
+    "prisma": "3.10.0-dev.18",
     "ts-node": "10.5.0",
     "ts-node-dev": "1.1.8",
-    "prisma": "3.8.1"
+    "typescript": "4.5.5"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
